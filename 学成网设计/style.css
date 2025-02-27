@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "微软雅黑";
+    background-color: #f3f5f7;
+}
+
+li {
+    list-style: none;
+}
+
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: gainsboro; */
+}
+
+/* 顶部 */
+.top {
+    width: 1200px;
+    height: 42px;
+    /* background-color: aquamarine; */
+    margin: 29px auto;
+}
+
+/* 顶部-logo */
+.top .logo {
+    float: left;
+    height: 42px;
+    width: 198px;
+}
+
+/* 顶部-导航栏 */
+.top .nav {
+    float: left;
+    margin-left: 60px;
+}
+
+/* LOGO-图片 */
+.logo-img {
+    height: 42px;
+    width: 198px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav ul li a {
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    color: #050505;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+
+/* 顶部-搜索栏 */
+.top .search {
+    float: left;
+    width: 412px;
+    height: 36px;
+    /* line-height: 36px; */
+    margin-left: 70px;
+    /* border: solid 1px #00a4ff; */
+    text-align: center;
+}
+
+.search input {
+    float: left;
+    width: 340px;
+    height: 36px;
+    border: solid 1px #00a4ff;
+    border-right: none;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 2px;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 38px;
+    border: none;
+    /* background-color: #00a4ff; */
+    background-image: url(images/btn.png);
+    margin-top: 2px;
+}
+
+/* 顶部-用护栏 */
+.top .user {
+    float: right;
+    line-height: 42px;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* 轮播图模块-底层背景 */
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner .w {
+    height: 420px;
+    background: url(images/banner.jpg) no-repeat top center;
+}
+
+/* 轮播图模块-左侧导航栏 */
+.banner .left {
+    float: left;
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.banner .left ul {
+    margin: 12px 0;
+}
+
+.banner .left ul li {
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.banner .left ul li a {
+    color: white;
+}
+
+.banner .left ul li a span {
+    float: right;
+}
+
+.banner .left ul li a:hover {
+    color: #00a4ff;
+}
+
+/* 轮播图模块-右侧课程表 */
+.banner .right {
+    float: right;
+    width: 228px;
+    height: 300px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.banner .right h2 {
+    width: 228px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #9bceea;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner .right .course {
+    padding: 10px 20px 0;
+}
+
+.banner .right .course ul li {
+    height: 30px;
+    padding: 15px 0;
+}
+
+.banner .right table tr td {
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.banner .right ul li .fu {
+    color: #9c9b9b;
+    font-size: 12px;
+}
+
+.banner .right .course a {
+    display: block;
+    height: 38px;
+    color: #00a4ff;
+    font-size: 16px;
+    font-weight: 700;
+    border: #00a4ff solid 1px;
+    line-height: 38px;
+    text-align: center;
+}
+
+/* 精品推荐导航模块 */
+.goods {
+    width: 1148px;
+    height: 18px;
+    background-color: #fff;
+    margin-top: 5px;
+    box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, .1);
+    padding: 21px 26px;
+}
+
+.goods h3 {
+    float: left;
+    color: #00a4ff;
+}
+
+.goods h3,
+.goods .goods-item ul li {
+    font-size: 16px;
+    width: 120px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.goods .goods-item ul li {
+    float: left;
+    border-left: 1px solid #bfbfbf;
+}
+
+.goods .goods-item ul li a {
+    color: black;
+}
+
+.goods .goods-item ul li a:hover {
+    color: #00a4ff;
+}
+
+.goods .mod {
+    float: right;
+    font-size: 14px;
+}
+
+.mod a {
+    color: #00a4ff;
+}
+
+/* 4.精品推荐模块 */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.box {
+    /* width: 1200px; */
+    margin-top: 30px;
+    /* background-color: aqua; */
+}
+
+.box .box-hd {
+    height: 45px;
+}
+
+.box .box-hd h2 {
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+    /* margin-left: 7.5px; */
+}
+
+.box .box-hd a {
+    float: right;
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-top: 13px;
+    margin-right: 35px;
+}
+
+.box .box-bd ul {
+    width: 1215px;
+    /* border: 1px solid black; */
+    /* background-color: pink; */
+}
+
+.box .box-bd ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    margin-right: 15px;
+    /* margin-left: 7.5px; */
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.box .box-bd ul a h3 {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0 24px;
+    color: #3c3c3c;
+}
+
+.box .box-bd ul a p {
+    margin-top: 15px;
+    font-size: 12px;
+    padding: 0 24px;
+}
+
+.box .box-bd ul a p .gao {
+    color: #ff6700;
+}
+
+.box .box-bd ul a p .ren {
+    color: #999999;
+}
+
+.box .box-bd ul li:hover {
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
+}
+
+.footer {
+    height: 415px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.footer .w {
+    height: 415px;
+}
+
+.footer .w .copyright {
+    float: left;
+    width: 435px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.footer .w .copyright p {
+    margin-top: 25px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666;
+}
+
+.footer .w .copyright button {
+    margin-top: 15px;
+    width: 120px;
+    height: 36px;
+    background-color: transparent;
+    border: #00a4ff solid 1px;
+    color: #00a4ff;
+}
+
+.footer .w .links {
+    float: right;
+    width: 590px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.footer .w .links ul {
+    float: left;
+    width: 130px;
+    height: 150px;
+    margin-right: 100px;
+    color: #6e6e6e;
+    line-height: 26px;
+}
+
+.footer .w .links .last {
+    margin-right: 0;
+}
+
+.footer .w .links ul li a {
+    font-size: 12px;
+    line-height: 21px;
+    color: #333;
+}
