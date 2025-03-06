@@ -1,0 +1,82 @@
+/* 品优购列表页CSS样式 */
+/* 1.nav模块 begin */
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    border-left: 1px solid #b1191a;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+    width: 120px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.sk_list a {
+    color: #000;
+}
+
+.sk_list a:hover {
+    color: #b1191a;
+}
+
+.sk_con ul li {
+    float: left;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 10px 22px 0;
+}
+
+.sk_con ul li:last-child a::after {
+    content: "\e665";
+    font-family: iconfont;
+    margin-left: 5px;
+}
+
+/*  1.nav模块 end */
+
+/* 2.列表页主体模块 begin */
+.sk_container {
+    /* background-color: pink; */
+    overflow: hidden;
+}
+
+.sk_bd ul {
+    width: 1212px;
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 458px;
+    margin-right: 13px;
+    margin-bottom: 12px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li img {
+    width: 288px;
+    height: 456px;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
+
+/* 2.列表页主体模块 end */
