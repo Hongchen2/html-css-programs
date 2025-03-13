@@ -25,4 +25,4 @@
 
 ## 三、有趣的案例
 1. 旋转魔方（学习3D变换和动画后，制作而出） 2025-3-6
-   - 链接：[ https://hongchen2.github.io/html-css-programs/有趣的案例/3D旋转-魔方.html]( https://hongchen2.github.io/html-css-programs/有趣的案例/3D旋转-魔方.html)
+   - 链接：[https://hongchen2.github.io/html-css-programs/有趣的案例/3D旋转-魔方.html](https://hongchen2.github.io/html-css-programs/有趣的案例/3D旋转-魔方.html)
