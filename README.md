@@ -3,7 +3,7 @@
 
 ## 一、电脑端网页制作
 1. 学成在线网页制作（仅有首页） 2025-2-27
-   - 链接：[https://github.com/Hongchen2/html-css-programs](https://github.com/Hongchen2/html-css-programs)
+   - 链接：[https://github.com/Hongchen2/html-css-programs](https://github.com/Hongchen2/html-css-programs/学成网设计/index.html)
  ![](./images/学成在线首页.png)
 3. 品优购网页制作（包括首页，注册页，手机列表页三个页面） 2025-3-6
 
