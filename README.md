@@ -15,8 +15,14 @@
      ![列表页](./images/品优购列表页.png)
 ## 二、移动端网页制作
 1. 京东移动端首页制作（仅包含部分首页元素） 2025-3-11
+   - 链接：[https://hongchen2.github.io/html-css-programs/京东移动端首页/index.html](https://hongchen2.github.io/html-css-programs/京东移动端首页/index.html)
+     
+   ![首页](./images/京东.png)
+   
 2. 携程网移动端首页制作 2025-3-13
-
+   -  链接：[https://hongchen2.github.io/html-css-programs/携程网移动端首页/index.html](https://hongchen2.github.io/html-css-programs/携程网移动端首页/index.html)
+      ![](./images/携程.png)
 
 ## 三、有趣的案例
 1. 旋转魔方（学习3D变换和动画后，制作而出） 2025-3-6
+   - 链接：[ https://hongchen2.github.io/html-css-programs/有趣的案例/3D旋转-魔方.html]( https://hongchen2.github.io/html-css-programs/有趣的案例/3D旋转-魔方.html)
