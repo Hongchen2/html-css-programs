@@ -95,10 +95,11 @@ a {
     float: left;
     width: 50px;
     height: 38px;
-    border: none;
-    /* background-color: #00a4ff; */
-    background-image: url(images/btn.png);
+    border: 1px solid #00a4ff;
+    background-color: #00a4ff;
+    /* background-image: url(images/btn.png); */
     margin-top: 2px;
+    color: #fff;
 }
 
 /* 顶部-用护栏 */
@@ -108,6 +109,11 @@ a {
     margin-right: 30px;
     font-size: 14px;
     color: #666;
+}
+
+.top .user img {
+    /* 图片和文字垂直居中对齐 */
+    vertical-align: middle;
 }
 
 /* 轮播图模块-底层背景 */
@@ -296,6 +302,8 @@ a {
 }
 
 .box .box-bd ul li {
+    position: relative;
+    top: 0;
     float: left;
     width: 228px;
     height: 270px;
@@ -303,6 +311,18 @@ a {
     /* margin-left: 7.5px; */
     margin-bottom: 15px;
     background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.box .box-bd ul li a>img {
+    width: 228px;
+    height: 155px;
+}
+
+.box .box-bd ul li em img {
+    position: absolute;
+    top: 4px;
+    right: -4px;
 }
 
 .box .box-bd ul a h3 {
@@ -328,8 +348,13 @@ a {
     color: #999999;
 }
 
-.box .box-bd ul li:hover {
+/* .box .box-bd ul li:hover {
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
+} */
+
+.box-bd ul li:hover {
+    top: -8px;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
 }
 
 .footer {
@@ -389,4 +414,20 @@ a {
     font-size: 12px;
     line-height: 21px;
     color: #333;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../字体图标/font_4841032_z39wctggwxj/iconfont.woff2?t=1740797465204') format('woff2'),
+        url('../字体图标/font_4841032_z39wctggwxj/iconfont.woff?t=1740797465204') format('woff'),
+        url('../字体图标/font_4841032_z39wctggwxj/iconfont.ttf?t=1740797465204') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
